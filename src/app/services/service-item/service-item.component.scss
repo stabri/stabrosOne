@@ -1,0 +1,18 @@
+.item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  color: lightgray;
+}
+
+.content {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+i {
+  font-size: 50px;
+}

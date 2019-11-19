@@ -10,6 +10,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MachineryItemComponent } from './machinery/machinery-item/machinery-item.component';
+import { ServiceItemComponent } from './services/service-item/service-item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MachineryItemComponent } from './machinery/machinery-item/machinery-ite
     ServicesComponent,
     ContactFormComponent,
     FooterComponent,
-    MachineryItemComponent
+    MachineryItemComponent,
+    ServiceItemComponent
   ],
   imports: [
     BrowserModule,
