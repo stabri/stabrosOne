@@ -1,12 +1,12 @@
 <div class="machinery">
 <div class="head">
-<h1>Loreem sd sa zxzxc</h1>
+    <div >
+      <h1>Park Maszyn</h1>
+      <p >Posiadamy maszyny, które sprostają każdemu wyzwaniu</p>
+      <a href="#" class="btn btn-primary">Dowiedz się więcej</a>
+    </div>
 </div>
 <div class="cards">
-<p>random random random</p>
-<p>random random random</p>
-<p>random random random</p>
-<p>random random random</p>
-<p>random random random</p>
+  <app-machinery-item *ngFor="let machine of MACHINES" [machine]="machine"></app-machinery-item>
 </div>
 </div>

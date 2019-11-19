@@ -9,6 +9,7 @@ import { MachineryComponent } from './machinery/machinery.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
+import { MachineryItemComponent } from './machinery/machinery-item/machinery-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     MachineryComponent,
     ServicesComponent,
     ContactFormComponent,
-    FooterComponent
+    FooterComponent,
+    MachineryItemComponent
   ],
   imports: [
     BrowserModule,
