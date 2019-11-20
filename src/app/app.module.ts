@@ -11,6 +11,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MachineryItemComponent } from './machinery/machinery-item/machinery-item.component';
 import { ServiceItemComponent } from './services/service-item/service-item.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ServiceItemComponent } from './services/service-item/service-item.compo
   imports: [
     BrowserModule,
     NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

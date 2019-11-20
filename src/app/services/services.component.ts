@@ -15,11 +15,11 @@ export class ServicesComponent implements OnInit {
 
   services: Service[] = [
     {title: 'Przewóz mebli', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'local_shipping'},
-    {title: 'Odśnieżanie', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'favorite_border'},
-    {title: 'Mulczowanie', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'grade'},
-    {title: 'Sprzedaż zrębki', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'rowing'},
-    {title: 'Rębakowanie', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'face'},
-    {title: 'Skoki na bugee', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'accessible_forward'},
+    {title: 'Odśnieżanie', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'ac_unit'},
+    {title: 'Mulczowanie', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'toys'},
+    {title: 'Sprzedaż zrębki', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'shopping_cart'},
+    {title: 'Rębakowanie', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'waves'},
+    {title: 'Usługi rolnicze', description: 'Usluga w zakresie tego i tamtego, szczgoly tu i uwdzie', icon: 'eco'},
   ];
 
   constructor() { }
