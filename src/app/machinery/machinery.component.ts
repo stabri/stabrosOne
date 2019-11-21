@@ -16,7 +16,7 @@ export class MachineryComponent implements OnInit {
     {name:'Massey Ferguson', image:'assets/images/cards/massey-1.jpg'},
     {name:'Rębak', image:'assets/images/cards/rebak-1.webp'},
     {name:'Mulczer', image:'assets/images/cards/mulczer-1.jpg'},
-    {name:'Pługi śnieżne', image:'assets/images/cards/plug-1.jpg'},
+    {name:'Pługi śnieżne', image:'assets/images/tractor-zima.jpg'},
     {name:'Transportery', image:'assets/images/cards/ducato-1.jpg'},
   ];
 
