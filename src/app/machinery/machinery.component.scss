@@ -1,14 +1,16 @@
 .machinery {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px 0;
+  padding: 80px 0;
 }
 
 .head {
-
+  width: 80vh;
+  margin: 24px;
 }
 
 .cards {
-  
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

@@ -9,6 +9,9 @@ import { MachineryComponent } from './machinery/machinery.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
+import { MachineryItemComponent } from './machinery/machinery-item/machinery-item.component';
+import { ServiceItemComponent } from './services/service-item/service-item.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { FooterComponent } from './footer/footer.component';
     MachineryComponent,
     ServicesComponent,
     ContactFormComponent,
-    FooterComponent
+    FooterComponent,
+    MachineryItemComponent,
+    ServiceItemComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

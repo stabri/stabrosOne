@@ -1,7 +1,8 @@
 <app-menu-bar></app-menu-bar>
-<div class="carousel-container">
-  <app-home-page></app-home-page>
-</div>
-  <div class="">
-  <app-machinery></app-machinery>
-</div>
+  <app-home-page id="home" #home></app-home-page>
+  <div>
+  <app-machinery id="machineryComponent" #machineryComponent></app-machinery>
+    <app-services id="servicesComponent" #servicesComponent></app-services>
+    <app-contact-form id="contactFormComponent" #contactFormComponent></app-contact-form>
+    <app-footer></app-footer>
+  </div>
