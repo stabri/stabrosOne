@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MachineryItemComponent } from './machinery/machinery-item/machinery-item.component';
 import { ServiceItemComponent } from './services/service-item/service-item.component';
 import {FormsModule} from "@angular/forms";
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,10 @@ import {FormsModule} from "@angular/forms";
   imports: [
     BrowserModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDurDIGI3rko8ilVVtQrN7fPA8NI5SVpFg'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

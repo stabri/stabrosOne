@@ -1,0 +1,20 @@
+agm-map {
+  height: 400px;
+}
+
+.map-container {
+  width: 70%;
+}
+
+.my-container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
