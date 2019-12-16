@@ -31,7 +31,7 @@ import { AgmCoreModule } from '@agm/core';
     NgbModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDurDIGI3rko8ilVVtQrN7fPA8NI5SVpFg'
+      apiKey: 'AIzaSyBO46k6imdhebCTe5xZB7BqWROUpxNdS3A'
     })
   ],
   providers: [],

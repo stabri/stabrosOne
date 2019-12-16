@@ -18,3 +18,11 @@ agm-map {
   flex-direction: column;
   justify-content: space-around;
 }
+
+textarea.ng-invalid.ng-touched, input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
+
+.form-container {
+  width: 100%;
+}
