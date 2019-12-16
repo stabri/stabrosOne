@@ -1,8 +1,9 @@
 .card {
   align-items: center;
-  margin-bottom: 8px;
+  margin: 24px;
   border: none;
-  width: 50vh;
+  max-width: 50vh;
+  height: 200px;
 }
 
 .card-title {
@@ -12,5 +13,5 @@
 
 .card-img-top {
   object-fit: cover;
-  height: 35vh;
+  height: 45vh;
 }

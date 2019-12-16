@@ -11,7 +11,10 @@ export class MachineryItemComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
+
+
+
 
 }

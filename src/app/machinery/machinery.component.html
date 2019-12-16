@@ -1,12 +1,23 @@
-<div class="machinery">
-<div class="head">
-    <div >
-      <h1>Park Maszyn</h1>
-      <p >Posiadamy maszyny, które sprostają każdemu wyzwaniu</p>
-<!--      <a href="#" class="btn btn-primary">Dowiedz się więcej</a>-->
+<div class="container">
+  <h1 class="head">PARK MASZYN</h1>
+<ngb-carousel *ngIf="!mobile" [showNavigationIndicators]="mobile">
+  <div *ngFor="let entry of machinery; ">
+    <ng-template ngbSlide >
+      <div class="slideContent">
+      <app-machinery-item class="prev" [machine]="entry.prev"></app-machinery-item>
+      <app-machinery-item class="current" [machine]="entry.current"></app-machinery-item>
+      <app-machinery-item class="next" [machine]="entry.next"></app-machinery-item>
+      </div>
+    </ng-template>
+  </div>
+</ngb-carousel>
+  <ngb-carousel *ngIf="mobile" [showNavigationIndicators]="mobile">
+    <div class="myCard" *ngFor="let machine of MACHINES">
+      <ng-template ngbSlide>
+        <div class="slideContent">
+          <app-machinery-item [machine]="machine"></app-machinery-item>
+        </div>
+      </ng-template>
     </div>
-</div>
-<div class="cards">
-  <app-machinery-item *ngFor="let machine of MACHINES" [machine]="machine"></app-machinery-item>
-</div>
+  </ngb-carousel>
 </div>
