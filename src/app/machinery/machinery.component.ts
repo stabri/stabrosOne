@@ -36,28 +36,28 @@ export class MachineryComponent implements OnInit {
       description: ''
     },
     {
-      name: 'Rębak Junkkari HJ 250G',
+      name: 'Rębak',
       image: 'assets/images/cards/rebak-1.webp',
-      description: ''
+      description: 'Rębak Junkkari HJ 250G'
     },
     {
-      name: 'Mulczer KUHN 265cm',
+      name: 'Mulczer',
       image: 'assets/images/cards/mulczer-1.jpg',
-      description: ''
+      description: 'Mulczer KUHN szerokość 265cm'
     },
     {
-      name: 'Pługi do odśnieżania + posypywarki samozaładowcze',
+      name: 'Pługi',
       image: 'assets/images/tractor-zima.jpg',
-      description: ''
+      description: 'Pługi do odśnieżania + posypywarki samozaładowcze'
     },
     {
-      name: 'Przyczepa Tandem Wywrotka 14 ton',
+      name: 'Przyczepa Tandem',
       image: 'assets/images/tractor-zima.jpg',
-      description: ''
+      description: 'Przyczepa Tandem Wywrotka 14 ton'
     },{
-      name: 'Brona Talerzowa ROL/EX Taurus 3m',
+      name: 'Brona Talerzowa',
       image: 'assets/images/tractor-zima.jpg',
-      description: ''
+      description: 'Brona Talerzowa ROL/EX Taurus, szerekość 3m'
     },
     {
       name: 'Transportery',
@@ -67,8 +67,7 @@ export class MachineryComponent implements OnInit {
   ];
 
   constructor(config: NgbCarouselConfig) {
-    // customize default values of carousels used by this component tree
-    config.interval = 50000;
+    config.interval = 5000;
     config.wrap = true;
     config.keyboard = false;
     config.pauseOnHover = true;
