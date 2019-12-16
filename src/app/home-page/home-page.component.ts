@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageComponent implements OnInit {
 
   constructor() { }
-  images = [1, 2, 3].map((n) => `assets/images/tractor-slider-${n}.jpg`);
   ngOnInit() {
   }
 

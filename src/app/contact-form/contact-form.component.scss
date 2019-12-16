@@ -1,3 +1,11 @@
+agm-map {
+  height: 400px;
+}
+
+.map-container {
+  width: 60%;
+}
+
 .container{
   display: flex;
   justify-content: space-between;
@@ -32,5 +40,9 @@ h5{
   .contact-data{
     align-items: center;
     padding-bottom: 24px;
+  }
+  .map-container {
+    width: 90%;
+    margin-left: 5%;
   }
 }

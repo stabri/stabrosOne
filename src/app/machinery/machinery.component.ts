@@ -23,36 +23,46 @@ export class MachineryComponent implements OnInit {
   machinery: Machinery[] = [];
   mobile: boolean = false;
 
+
   MACHINES: Machine[] = [
     {
-      name: 'Deutz-Fahr',
+      name: 'Deutz Fahr 5120',
       image: 'assets/images/cards/fendt-1.jpg',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
+      description: ''
     },
     {
-      name: 'Massey Ferguson',
+      name: 'Massey Ferguson 5612',
       image: 'assets/images/cards/massey-1.jpg',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
+      description: ''
     },
     {
-      name: 'Rębak',
+      name: 'Rębak Junkkari HJ 250G',
       image: 'assets/images/cards/rebak-1.webp',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
+      description: ''
     },
     {
-      name: 'Mulczer',
+      name: 'Mulczer KUHN 265cm',
       image: 'assets/images/cards/mulczer-1.jpg',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
+      description: ''
     },
     {
-      name: 'Pługi śnieżne',
+      name: 'Pługi do odśnieżania + posypywarki samozaładowcze',
       image: 'assets/images/tractor-zima.jpg',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
+      description: ''
+    },
+    {
+      name: 'Przyczepa Tandem Wywrotka 14 ton',
+      image: 'assets/images/tractor-zima.jpg',
+      description: ''
+    },{
+      name: 'Brona Talerzowa ROL/EX Taurus 3m',
+      image: 'assets/images/tractor-zima.jpg',
+      description: ''
     },
     {
       name: 'Transportery',
       image: 'assets/images/cards/ducato-1.jpg',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
+      description: ''
     },
   ];
 
