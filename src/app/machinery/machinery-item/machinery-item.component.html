@@ -3,9 +3,7 @@
   <div class="card-title">
     {{machine.name}}
   </div>
-  <div class="card-text">
-    <ul *ngFor="let entry of machine.description">
-      <li>{{entry}}</li>
-    </ul>
-  </div>
+  <p class="card-text">
+    {{machine.description}}
+  </p>
 </div>

@@ -4,7 +4,7 @@ import {NgbCarousel, NgbCarouselConfig, NgbSlideEvent, NgbSlideEventSource} from
 export interface Machine {
   name: string;
   image: string;
-  description: string[];
+  description: string;
 }
 
 export interface Machinery {
@@ -27,32 +27,32 @@ export class MachineryComponent implements OnInit {
     {
       name: 'Deutz-Fahr',
       image: 'assets/images/cards/fendt-1.jpg',
-      description: ['Moc: 123421', 'Lorem: Ipsum', 'More: Even More', 'Itp: Itd']
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
     },
     {
       name: 'Massey Ferguson',
       image: 'assets/images/cards/massey-1.jpg',
-      description: ['Moc: 123421', 'Lorem: Ipsum', 'More: Even More', 'Itp: Itd']
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
     },
     {
       name: 'Rębak',
       image: 'assets/images/cards/rebak-1.webp',
-      description: ['Moc: 123421', 'Lorem: Ipsum', 'More: Even More', 'Itp: Itd']
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
     },
     {
       name: 'Mulczer',
       image: 'assets/images/cards/mulczer-1.jpg',
-      description: ['Moc: 123421', 'Lorem: Ipsum', 'More: Even More', 'Itp: Itd']
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
     },
     {
       name: 'Pługi śnieżne',
       image: 'assets/images/tractor-zima.jpg',
-      description: ['Moc: 123421', 'Lorem: Ipsum', 'More: Even More', 'Itp: Itd']
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
     },
     {
       name: 'Transportery',
       image: 'assets/images/cards/ducato-1.jpg',
-      description: ['Moc: 123421', 'Lorem: Ipsum', 'More: Even More', 'Itp: Itd']
+      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s'
     },
   ];
 
