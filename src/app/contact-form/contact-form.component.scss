@@ -1,22 +1,12 @@
-agm-map {
-  height: 400px;
-}
-
-.map-container {
-  width: 60%;
-}
-
-.my-container{
-  height: 100%;
+.container{
   display: flex;
   justify-content: space-between;
-  margin: 10%;
+  padding: 5% 0;
 }
 
 .contact-data {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 textarea.ng-invalid.ng-touched, input.ng-invalid.ng-touched{
@@ -25,4 +15,22 @@ textarea.ng-invalid.ng-touched, input.ng-invalid.ng-touched{
 
 .form-container {
   width: 100%;
+}
+
+.row {
+  justify-content: center;
+}
+
+h5{
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .contact-data{
+    align-items: center;
+    padding-bottom: 24px;
+  }
 }

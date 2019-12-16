@@ -3,7 +3,6 @@
   margin: 24px;
   border: none;
   max-width: 50vh;
-  height: 200px;
 }
 
 .card-title {
@@ -13,5 +12,6 @@
 
 .card-img-top {
   object-fit: cover;
-  height: 45vh;
+  max-height: 45vh;
+  min-height: 35vh;
 }
