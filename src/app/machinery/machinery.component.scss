@@ -1,24 +1,12 @@
 .container {
   padding-top: 5vh;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 h1 {
   display: flex;
   justify-content: center;
 }
-
-//.prev, .next {
-//  //color: transparent;
-//  //opacity: 0.5;
-//}
-//
-//.current {
-//  display: flex;
-//  flex-grow: 2;
-//  justify-content: center;
-//  width: 80vh;
-//}
 
 ::ng-deep .carousel-item.active {
 display: flex;
@@ -29,6 +17,3 @@ display: flex;
   outline: none;
 }
 
-::ng-deep .carousel-control-next-icon {
-  opacity: 0.7;
-}

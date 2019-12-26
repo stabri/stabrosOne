@@ -13,6 +13,7 @@ import { MachineryItemComponent } from './machinery/machinery-item/machinery-ite
 import { ServiceItemComponent } from './services/service-item/service-item.component';
 import {FormsModule} from "@angular/forms";
 import { AgmCoreModule } from '@agm/core';
+import { CompanyaboutComponent } from './companyabout/companyabout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AgmCoreModule } from '@agm/core';
     ContactFormComponent,
     FooterComponent,
     MachineryItemComponent,
-    ServiceItemComponent
+    ServiceItemComponent,
+    CompanyaboutComponent
   ],
   imports: [
     BrowserModule,
