@@ -1,11 +1,13 @@
 .container {
-  padding-top: 60px;
+  padding-top: 40px;
   min-height: 90vh;
+  padding-bottom: 40px;
 }
 
 h1 {
   display: flex;
   justify-content: center;
+  font-size: 22px;
 }
 
 ::ng-deep .carousel-item.active {
@@ -17,3 +19,8 @@ display: flex;
   outline: none;
 }
 
+.my-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

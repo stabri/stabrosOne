@@ -1,9 +1,11 @@
 <div class="card">
-  <img class="card-img-top" [src]="machine.image" alt="Card image cap">
-  <div class="card-title">
-    {{machine.name}}
+  <div class="image">
+    <img [src]="machine.image"  alt=""/>
   </div>
-  <p class="card-text">
-    {{machine.description}}
-  </p>
+    <div class="details">
+    <div class="center">
+      <h1>{{machine.name}}</h1>
+      <p>{{machine.description}}</p>
+    </div>
+  </div>
 </div>

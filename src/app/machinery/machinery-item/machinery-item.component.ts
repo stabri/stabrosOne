@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {Machine} from "../machinery.component";
 
 @Component({
@@ -6,15 +6,6 @@ import {Machine} from "../machinery.component";
   templateUrl: './machinery-item.component.html',
   styleUrls: ['./machinery-item.component.scss']
 })
-export class MachineryItemComponent implements OnInit {
+export class MachineryItemComponent {
   @Input() machine:Machine;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-
-
-
 }

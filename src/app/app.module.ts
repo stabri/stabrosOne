@@ -14,6 +14,7 @@ import { ServiceItemComponent } from './services/service-item/service-item.compo
 import {FormsModule} from "@angular/forms";
 import { AgmCoreModule } from '@agm/core';
 import { CompanyaboutComponent } from './companyabout/companyabout.component';
+import { MachineryItemMobileComponent } from './machinery/machinery-item/machinery-item-mobile.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CompanyaboutComponent } from './companyabout/companyabout.component';
     FooterComponent,
     MachineryItemComponent,
     ServiceItemComponent,
-    CompanyaboutComponent
+    CompanyaboutComponent,
+    MachineryItemMobileComponent
   ],
   imports: [
     BrowserModule,
