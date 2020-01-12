@@ -27,12 +27,12 @@ export class MachineryComponent implements OnInit {
   MACHINES: Machine[] = [
     {
       name: 'Deutz Fahr 5120',
-      image: 'assets/images/cards/fendt-1.jpg',
+      image: 'assets/images/cards/deutz-1.jpg',
       description: ''
     },
     {
       name: 'Massey Ferguson 5612',
-      image: 'assets/images/cards/massey-1.jpg',
+      image: 'assets/images/cards/massey-r-1.jpg',
       description: ''
     },
     {
@@ -47,7 +47,7 @@ export class MachineryComponent implements OnInit {
     },
     {
       name: 'Pługi',
-      image: 'assets/images/tractor-zima.jpg',
+      image: 'assets/images/cards/plug.jpg',
       description: 'Pługi do odśnieżania + posypywarki samozaładowcze'
     },
     {
@@ -56,7 +56,7 @@ export class MachineryComponent implements OnInit {
       description: 'Przyczepa Tandem Wywrotka 14 ton'
     },{
       name: 'Brona Talerzowa',
-      image: 'assets/images/tractor-zima.jpg',
+      image: 'assets/images/cards/brona.jpg',
       description: 'Brona Talerzowa ROL/EX Taurus, szerekość 3m'
     },
     {
@@ -65,6 +65,8 @@ export class MachineryComponent implements OnInit {
       description: ''
     },
   ];
+
+  range = [0, 1, 2, 3, 4, 5]
 
   constructor(config: NgbCarouselConfig) {
     config.interval = 5000;

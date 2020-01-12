@@ -1,16 +1,22 @@
 .card {
   align-items: center;
   margin: 24px;
-  border: none;
   max-width: 50vh;
+  min-height: 450px;
+  border-color: #424242;
 }
 
 .card-title {
   font-size: 24px;
   padding: 12px;
+  text-align: center;
 }
 
 .card-img-top {
   object-fit: cover;
   height: 40vh;
+}
+
+p {
+  text-align: center;
 }

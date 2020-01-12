@@ -1,10 +1,20 @@
 .container {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.siema {
-  display: flex;
-  font-size: 64px;
+.row {
   justify-content: center;
-  align-content: center;
+  padding: 25px 0;
+}
+
+.my-container {
+  background: #E3E3E3;
+  display: flex;
+  min-height: 90vh;
+}
+
+h5, p {
+  text-align: center;
 }

@@ -14,12 +14,13 @@ export interface Service {
 export class ServicesComponent implements OnInit {
 
   services: Service[] = [
-    {title: 'Transport', description: 'Usługi transportowe dużych przedmiotów, transport przyczepą wywrotkową', icon: 'local_shipping'},
-    {title: 'Odśnieżanie', description: 'Odśnieżanie podjazdów, dróg miejskich, powiatowych i gminnych', icon: 'ac_unit'},
-    {title: 'Mulczowanie', description: 'Mulczowanie trawy i nieużytków, koszenie kosiarką rotacyjną', icon: 'toys'},
-    {title: 'Zrębkowanie', description: 'Zrębkowanie drzew i gałęzi, wycinka samosiejek, sprzedaż zrębki drzewnej', icon: 'loop'},
-    {title: 'Glebogryzarka', description: 'Usługi glebogryzarką', icon: 'waves'},
-    {title: 'Usługi rolnicze', description: 'Wynajem ciągników z operatorem, koszenie, orka, talerzowanie ', icon: 'eco'},
+    {title: 'Transport', description: 'Usługi transportowe ciągnik z przyczepą tandem 18m3 o ładowności dopuszczalnej 14ton - wywrot do tyłu, szyber do zboża.', icon: 'local_shipping'},
+    {title: 'Odśnieżanie', description: 'Usługi zimowego utrzymania dróg – każdy ciągnik wyposażony jest w pług i posypywarkę', icon: 'ac_unit'},
+    {title: 'Mulczowanie', description: 'Mulczowanie trawy i nieużytków, kosiarka bijakowa kuhn o szerokości roboczej 265cm', icon: 'toys'},
+    // {title: 'Zrębkowanie', description: 'Zrębkowanie drzew i gałęzi, wycinka samosiejek, sprzedaż zrębki drzewnej', icon: 'loop'},
+    {title: 'Zrębkowanie', description: 'Usługa nowoczesnym rębak Junkkari HJ250G, o maksymalnej średnicy zrebkowanego drzewa do 25cm', icon: 'loop'},
+    {title: 'Usługi rolnicze', description: 'Wynajem ciągników z operatorem, koszenie, orka, talerzowanie, usługi glebogryzarką ', icon: 'waves'},
+    {title: 'Talerzowanie', description: 'Uprawa przedsiewna broną talerzową Rol/ex - szerokości robocza 3m, talerze o średnicy 610mm i wał doprawiający crosskill', icon: 'eco'},
   ];
 
   constructor() { }
@@ -28,3 +29,10 @@ export class ServicesComponent implements OnInit {
   }
 
 }
+/**
+ *- .
+ Usługi transportowe
+ Mulczowanie –
+  –
+
+ */

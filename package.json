@@ -22,7 +22,7 @@
     "@angular/router": "~8.2.3",
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
     "@types/googlemaps": "^3.38.1",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "material-design-icons": "^3.0.1",
     "ngx-bootstrap": "^5.2.0",
