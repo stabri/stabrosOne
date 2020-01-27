@@ -1,20 +1,29 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  max-width: 100%;
 }
 
 .row {
   justify-content: center;
-  padding: 25px 0;
+  padding: 25px 5px;
 }
 
 .my-container {
-  background: #E3E3E3;
+  background: #737373;
   display: flex;
   min-height: 90vh;
+  color: white;
 }
 
 h5, p {
   text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
 }

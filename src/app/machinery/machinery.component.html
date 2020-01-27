@@ -2,7 +2,7 @@
   <h1 class="head">PARK MASZYN</h1>
 
   <div class="my-item" *ngIf="!mobile">
-    <app-machinery-item *ngFor="let machine of machinery" [machine]="machine.current"></app-machinery-item>
+    <app-machinery-item class="item-container" *ngFor="let machine of machinery" [machine]="machine.current"></app-machinery-item>
   </div>
 
   <ngb-carousel *ngIf="mobile" [showNavigationIndicators]="mobile">
