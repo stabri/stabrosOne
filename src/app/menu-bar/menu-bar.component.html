@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-  <a class="navbar-brand brand" href="#home">
+  <a class="navbar-brand brand" (click)="navigateTo('stabros')">
   STABROS
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
@@ -9,19 +9,19 @@
   <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#home">STABROS</a>
+        <button class="nav-link btn btn-link" (click)="navigateTo('stabros')">STABROS</button>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#company">O FIRMIE</a>
+        <button class="nav-link btn btn-link" (click)="navigateTo('o_firmie')">O FIRMIE</button>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#machineryComponent">PARK MASZYN</a>
+        <button class="nav-link btn btn-link" (click)="navigateTo('park_maszyn')">PARK MASZYN</button>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#servicesComponent">USŁUGI</a>
+        <button class="nav-link btn btn-link" (click)="navigateTo('uslugi')">USŁUGI</button>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contactFormComponent">KONTAKT</a>
+        <button class="nav-link btn btn-link" (click)="navigateTo('kontakt')">KONTAKT</button>
       </li>
     </ul>
   </div>

@@ -12,4 +12,12 @@ export class MenuBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  navigateTo(element: string) {
+   if(element === 'stabros') {
+     history.pushState({}, element.toUpperCase(), `/`);
+   } else {
+     history.pushState({}, element.toUpperCase(), `/${element}`);
+   }
+    document.getElementById(element).scrollIntoView(true);
+  }
 }
